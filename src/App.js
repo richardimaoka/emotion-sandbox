@@ -1,9 +1,9 @@
- /** @jsxImportSource @emotion/react */
+/** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react'
 
-import './App.css';
+import './App.css'
 
-function App() {
+function App () {
   return (
     <div
     css={css`
@@ -16,7 +16,7 @@ function App() {
   >
     This has a hotpink background.
   </div>
-  );
+  )
 }
 
-export default App;
+export default App
