@@ -1,16 +1,18 @@
  /** @jsxImportSource @emotion/react */
+import { css } from '@emotion/react'
 
 import './App.css';
 
 function App() {
   return (
     <div
-    css={{
-      backgroundColor: 'hotpink',
-      '&:hover': {
-        color: 'lightgreen'
-      }
-    }}
+    css={css`
+      background-color: 'hotpink';
+
+      &:hover {
+        color: 'lightgreen';
+      }`
+    }
   >
     This has a hotpink background.
   </div>
